@@ -11,8 +11,9 @@ class GroceryList extends StatefulWidget {
 }
 
 class _GroceryListState extends State<GroceryList> {
-  void addItem(){
-    Navigator.of(context).push(MaterialPageRoute(builder: (ctx) => const NewItem()));
+  void addItem() {
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (ctx) => const NewItem()));
   }
 
   @override
@@ -20,21 +21,19 @@ class _GroceryListState extends State<GroceryList> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Groceries list"),
-        actions: [
-          IconButton(onPressed: addItem, icon: const Icon(Icons.add))
-        ],
+        actions: [IconButton(onPressed: addItem, icon: const Icon(Icons.add))],
       ),
       body: ListView.builder(
           itemCount: groceryItems.length,
           itemBuilder: (ctx, index) => ListTile(
-            title: Text(groceryItems[index].name),
-            leading: Container(
-              width: 24,
-              height: 24,
-              color: groceryItems[index].category.color,
-            ),
-            trailing: Text(groceryItems[index].quantity.toString()),
-          )),
+                title: Text(groceryItems[index].name),
+                leading: Container(
+                  width: 24,
+                  height: 24,
+                  color: groceryItems[index].category.color,
+                ),
+                trailing: Text(groceryItems[index].quantity.toString()),
+              )),
     );
   }
 }
