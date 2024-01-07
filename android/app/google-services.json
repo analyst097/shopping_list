@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "254061296381",
+    "project_id": "shopping-list-5c39f",
+    "storage_bucket": "shopping-list-5c39f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254061296381:android:08ca43b3f0ad4c36d71c94",
+        "android_client_info": {
+          "package_name": "com.aditya.shoppinglist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWtpAd1KXHdgZPUOG-heFaQJ0e6Q3zGSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254061296381:android:5cfbb7d5dd94c5e1d71c94",
+        "android_client_info": {
+          "package_name": "com.example.shopping_list"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWtpAd1KXHdgZPUOG-heFaQJ0e6Q3zGSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
